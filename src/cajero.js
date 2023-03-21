@@ -10,23 +10,23 @@ var ingreseClave = parseInt(prompt("ingrese su clave"));
     if (ingreseClave === claveCorrecta && usuario === ingreseUsuario) {
         alert("tu saldo actual es " + saldo);
     }else if (ingreseClave != claveCorrecta || ingreseUsuario != usuario){
-        alert ("calve o usuario estas incorrectos")
-        alert ("intento  N°1")
+        alert ("calve o usuario estas incorrectos");
+        alert ("intento  N°1");
         ingreseUsuario = prompt("ingrese usuario");
         ingreseClave = parseInt(prompt("ingrese su clave"));
     if (ingreseClave === claveCorrecta && usuario === ingreseUsuario){
         alert("tu saldo actual es " + saldo);
     } else if(ingreseClave != claveCorrecta || ingreseUsuario != usuario){ 
-        alert ("calve o usuario estas incorrectos")
-        alert ("intento  N°2")
+        alert ("calve o usuario estas incorrectos");
+        alert ("intento  N°2");
         ingreseUsuario = prompt("ingrese usuario");
         ingreseClave = parseInt(prompt("ingrese su clave"));
         if (ingreseClave === claveCorrecta && usuario === ingreseUsuario){
             alert("tu saldo actual es " + saldo);
         } else if(ingreseClave != claveCorrecta || ingreseUsuario != usuario){ 
-            alert ("calve o usuario estas incorrectos")
-            alert ("intento  N°3")
-            alert("su cuenta ha sido bloqueada termporalmente, comunicarse con un asesor")
+            alert ("calve o usuario estas incorrectos");
+            alert ("intento  N°3");
+            alert("su cuenta ha sido bloqueada termporalmente, comunicarse con un asesor");
     }   
     }
     }
